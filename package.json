@@ -1,0 +1,16 @@
+{
+  "name": "session-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createExpressServer.js",
+  "scripts": {
+    "start":"node createExpressServer_basic.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khan M. Tabish",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

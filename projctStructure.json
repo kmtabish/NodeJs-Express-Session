@@ -1,0 +1,49 @@
+project: {
+  "controllers": {
+    "files": [
+        {
+          "file": "users.js"
+        }
+      ]
+    },
+    "util": {
+      "files": [
+        {
+          "file": "plugin.js"
+        }
+      ]
+    },
+  "middlewares": {
+    "files": [
+      {
+        "file": "auth.js"
+      }
+    ]
+  },
+  "models": {
+    "files": [
+      {
+        "file": "user.js"
+      }
+    ]
+  },
+  "routes": {
+    "files": [
+      {
+        "file": "user.js"
+      },
+      {
+        "file": "router.js"
+      }
+    ]
+  },
+  "public": {
+    "js": [], "css": [], "img": []
+  },
+  "views": {
+    "users": []
+  },
+  "git": ".gitignore",
+  "main": "app.js",
+  "package": "package.json"
+}
