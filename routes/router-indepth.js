@@ -1,9 +1,9 @@
 module.exports = (app) => {
     app.get('/user', (req, res) => {
         res.send([
-            {name: 'Akash', id: 1},
-            {name: 'Arun', id: 2},
-            {name: 'Priya', id: 3} ]); });
+            {name: 'User-1', id: 1},
+            {name: 'User-2', id: 2},
+            {name: 'User-3', id: 3} ]); });
     app.post('/user', (req, res) => {
         res.send('Got a POST request');
     });
