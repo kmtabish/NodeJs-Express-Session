@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    app.get('/user', (req, res) => {
+    app.get('/user',(req, res, next)=>{console.log("hhhhhh");next()}, (req, res) => {
         res.send([
             {name: 'User-1', id: 1},
             {name: 'User-2', id: 2},
